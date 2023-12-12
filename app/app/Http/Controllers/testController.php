@@ -11,7 +11,7 @@ class testController extends Controller
     //anasayfa
     public function index()
     {
-        $test = 'test';
+        $test = 'Ana Sayfa';
 
         return view('index', compact('test'));
     }

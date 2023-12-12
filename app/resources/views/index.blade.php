@@ -1,4 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<p>{{$test}}</p>
+<div class="container">
+    <h1>{{$test}}</h1>
+</div>
 @endsection
